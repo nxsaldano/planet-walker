@@ -1,0 +1,3 @@
+[submodule "cmake-build-debug/_deps/raylib-src"]
+	path = cmake-build-debug/_deps/raylib-src
+	url = https://github.com/nxsaldano/planet-walker
