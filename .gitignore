@@ -1,5 +1,23 @@
-# CLion / JetBrains
+# Build directories
+cmake-build-*/
+build/
+out/
+
+# JetBrains
 .idea/
 
-# CMake build directories
-cmake-build-*/
+# Compiled binariesgit rm -r --cached .idea
+*.exe
+*.dll
+*.obj
+*.o
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# OS files
+.DS_Store
+Thumbs.db
